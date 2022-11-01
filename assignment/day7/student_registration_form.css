@@ -1,4 +1,11 @@
-.box_container{
-    width: 20px;
-    height: 30px;
+.box-container{
+    width: 800px ;
+    height:750px ;
+    border:2px solid red ;
+    background-color: rgb(156, 186, 176) ;
+    margin: auto auto;
+    text-align: center;
+}
+.input{
+    border-radius: 20px;
 }
