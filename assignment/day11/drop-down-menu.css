@@ -8,13 +8,13 @@
     
 }
 .navigation-bar ul li {
-    background-color: rgb(254, 136, 39);
+    background-color: rgb(39, 254, 86);
     position: relative;
     display: inline-block;
 }
 .navigation-bar ul li a {
     display: block;
-    color: rgb(243, 247, 248);
+    color: rgb(28, 171, 207);
     padding: 0 15px;
     list-style: none;
     line-height: 50px;
