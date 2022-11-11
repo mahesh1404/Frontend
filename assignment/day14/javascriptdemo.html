@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>JavaScript</h1>
+    
+    <button type="button" onclick="myFunction()">
+        Turn On</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello";
+        }
+    </script>
+
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Turn Off</button>
+
+    <p id="demo" style="color: red; font-size: 250px; background-color: black;"> </p>
+
+</body>
+
+</html>
