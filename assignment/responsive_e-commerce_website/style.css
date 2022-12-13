@@ -37,8 +37,9 @@
     font-weight: 700;
 }
 .main{
-    background: url("./Lunch.jpeg")no-repeat;
+    background: url("https://tse3.mm.bing.net/th?id=OIP.pGcuD52-azuOm4bd39NV0gHaE6&pid=Api&P=0");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
@@ -69,4 +70,15 @@
 -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
 transition: 0.5s;
+}
+.apple{
+    background:url("https://tse3.mm.bing.net/th?id=OIP.jZbpqG9LzmsL0YBokTBNUAHaEX&pid=Api&P=0")no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+
 }
