@@ -35,6 +35,11 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
+@media screen and (max-width: 992px) {
+body {
+    background-color: #FF7F50; 
+  }
+}
 
 a {
   color: var(--color-primary);
