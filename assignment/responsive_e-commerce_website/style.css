@@ -37,13 +37,22 @@
     font-weight: 700;
 }
 .main{
-    background: url("https://tse3.mm.bing.net/th?id=OIP.pGcuD52-azuOm4bd39NV0gHaE6&pid=Api&P=0");
+    background: url("./lunch_copy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
 }
+.body{
+    background-color: #66CDAA;
+}
+@media screen and (max-width: 992px) {
+    body {
+        background-color: #FF6347; 
+      }
+    }
+
 .main h1{
     font-size: 4rem;
     font-weight: 700;

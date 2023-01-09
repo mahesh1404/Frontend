@@ -35,7 +35,7 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 640px) {
 body {
     background-color: #FF7F50; 
   }
@@ -1040,6 +1040,11 @@ section {
 
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
+}
+@media screen and (max-width: 992px) {
+  .services {
+    background-color: green;
+  }
 }
 
 /*--------------------------------------------------------------
